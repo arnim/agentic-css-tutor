@@ -23,6 +23,10 @@ The curriculum map is adapted from the public GESIS course repository:
 
 Keep attribution to the original GESIS/Social ComQuant authors when redistributing derived material.
 
+## Screenshot
+
+<img src="./screenshot.png" alt="Agentic CSS Tutor" width="900" />
+
 ## Run
 
 Install/run [Pi](https://pi.dev), then launch the tutor directly from GitHub:
