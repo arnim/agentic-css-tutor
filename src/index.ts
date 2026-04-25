@@ -80,17 +80,6 @@ function formatTokens(count: number): string {
 	return `${Math.round(count / 1000000)}M`;
 }
 
-function getCssMascot(theme: Theme): string[] {
-	return [
-		"",
-		theme.fg("accent", "  CSS"),
-		theme.fg("accent", "  ▓▓  data"),
-		theme.fg("accent", "  ▓▓  methods"),
-		theme.fg("accent", "  ▓▓  society"),
-		"",
-	];
-}
-
 function infoBox(theme: Theme, title: string, content: string): Box {
 	const box = new Box(1, 1, (text) => theme.bg("customMessageBg", text));
 	box.addChild(new Text(`${theme.fg("accent", theme.bold(title))}\n${content}\n`, 0, 0));
@@ -108,9 +97,8 @@ export default function cssAgenticTutorExtension(pi: ExtensionAPI) {
 		box.addChild(
 			new Text(
 				[
-					...getCssMascot(theme),
-					theme.fg("accent", "    " + theme.bold("Agentic CSS Tutor")),
-					theme.fg("muted", "    " + STARTING_MESSAGE),
+					theme.fg("accent", theme.bold("Agentic CSS Tutor")),
+					theme.fg("muted", STARTING_MESSAGE),
 				].join("\n") + "\n",
 				0,
 				0,
