@@ -1,4 +1,4 @@
-# Agentic CSS Tutor for Pi
+# Agentic CSS Tutor
 
 This is an experimental [Pi](https://pi.dev) teaching-mode extension for an **Agentic Introduction to Computational Social Science with Python**.
 
