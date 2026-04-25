@@ -1,0 +1,27 @@
+{
+  "name": "agentic-css-tutor",
+  "version": "0.1.0",
+  "description": "Agentic Introduction to Computational Social Science teaching-mode extension for Pi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnim/agentic-css-tutor.git"
+  },
+  "readme": "README.md",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "computational-social-science",
+    "teaching-mode"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-tui": "*"
+  }
+}
