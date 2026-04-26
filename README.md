@@ -16,16 +16,6 @@ The curriculum is adapted from the public GESIS course repository:
 
 <img src="./screenshot.png" alt="Agentic CSS Tutor" width="900" />
 
-
-## Files
-
-```text
-src/index.ts                         # Pi extension runtime: tools, UI, events, commands
-src/curricula/types.ts               # curriculum data interfaces
-src/curricula/css-methods-python.ts  # course map, sessions, milestones
-src/prompts/css-tutor.ts             # prompt builders and formatting helpers
-```
-
 ## Slash commands
 
 - `/css-progress` — show completed and remaining tutor milestones.
